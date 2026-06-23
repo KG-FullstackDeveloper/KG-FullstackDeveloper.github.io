@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kazeem Ganiu — Frontend Developer. Building modern, responsive, and accessible web experiences.">
+    <title>Kazeem Ganiu — Frontend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header">
+        <nav class="navbar container">
+            <div class="nav-brand">
+                <a href="#home"><span class="brand-accent">K</span>Ganiu</a>
+            </div>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
+            <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-menu" role="navigation" aria-label="Main navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-content">
+                        <p class="hero-intro">Welcome to my portfolio</p>
+                        <h1 class="hero-title">Hi, I'm <span class="gradient-text">Kazeem Ganiu</span></h1>
+                        <p class="hero-subtitle">Frontend Developer | Future Full Stack Engineer</p>
+                        <p class="hero-description">I craft beautiful, responsive, and performant web experiences using modern HTML, CSS, and JavaScript. Passionate about clean code, accessibility, and user-centered design.</p>
+                        
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">View Projects</a>
+                            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        </div>
+                    </div>
+
+                    <div class="hero-illustration" aria-hidden="true">
+                        <div class="floating-card">
+                            <div class="card-content">
+                                <div class="dev-icon">
+                                    <img src="my-image.png" alt="Development Icon" style="width: 30rem; height: 30rem; border-radius: 70%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="floating-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <p>Learn more about my journey and passion for web development</p>
+                </div>
+
+                <div class="about-content">
+                    <p>I’m a front-end developer focused on building responsive and interactive websites using HTML, CSS, and JavaScript.
+
+I enjoy turning ideas into functional web pages and improving user experience through clean structure and interactivity. I work with JavaScript fundamentals like DOM manipulation and form validation to make websites dynamic.
+
+I’m currently improving my skills by building more real-world projects and strengthening my CSS and JavaScript knowledge.
+
+I’m open to opportunities where I can learn, grow, and contribute as a developer.</p>
+                    
+                    <p>My journey in web development is driven by a desire to solve real problems through elegant code and thoughtful design. I believe in continuous learning and staying updated with industry best practices.</p>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Skills Mastered</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Services</h2>
+                    <p>What I can do for your project</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🌐</div>
+                        <h3>Website Development</h3>
+                        <p>Custom-built websites tailored to your needs, using clean and modern code practices.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>Responsive Design</h3>
+                        <p>Mobile-first designs that look stunning across all devices and screen sizes.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🚀</div>
+                        <h3>Landing Pages</h3>
+                        <p>High-converting landing pages optimized for performance and user engagement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Skills</h2>
+                    <p>Technologies and tools I work with</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>HTML5</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%"></div>
+                        </div>
+                        <p class="skill-level">90% Proficient</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>CSS3</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%"></div>
+                        </div>
+                        <p class="skill-level">80% Proficient</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 78%"></div>
+                        </div>
+                        <p class="skill-level">78% Proficient</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Responsive Design</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%"></div>
+                        </div>
+                        <p class="skill-level">80% Proficient</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>GitHub</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                        <p class="skill-level">85% Proficient</p>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <p>Showcase of my best work and recent creations</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <p>Modern Landing Page</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3>Modern Landing Page</h3>
+                            <p>A responsive landing page with smooth scrolling animations and modern design patterns.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%)">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <p>E-Commerce Store</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3>E-Commerce Store</h3>
+                            <p>Full-featured online store with product showcase, cart system, and checkout flow.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <p>Portfolio Website</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3>Portfolio Website</h3>
+                            <p>Professional portfolio site showcasing projects, skills, and contact information.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">Design</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="view-all-wrapper">
+    <div class="dropdown">
+        <button class="btn btn-secondary view-all" id="viewAllBtn">
+            View All Projects
+        </button>
+
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="Saas.html" target="_blank">SaaS webpage</a>
+            <a href="new.html" target="_blank">Dashboard</a>
+            <a href="https://your-projects-3.com" target="_blank">Case Studies</a>
+        </div>
+    </div>
+</div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Experience Timeline</h2>
+                    <p>My professional journey and learning milestones</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2025 - Frontend Developer</h3>
+                            <p class="timeline-company">Tech Startup Company</p>
+                            <p>Built responsive web components and improved website performance. Collaborated with design and backend teams to deliver high-quality features.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2024 - Web Developer</h3>
+                            <p class="timeline-company">Self-Employed</p>
+                            <p>Developed custom websites for multiple clients. Focused on responsive design, and user experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2023 - Started Web Development Journey</h3>
+                            <p class="timeline-company">Self-Taught</p>
+                            <p>Began learning HTML, CSS, and JavaScript. Built first portfolio website and completed multiple projects to master fundamental concepts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What People Say</h2>
+                    <p>Feedback from clients and collaborators</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Kazeem delivered exceptional work on our landing page. His attention to detail and responsiveness throughout the project was outstanding."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AB</div>
+                            <div>
+                                <p class="author-name"> Aba John</p>
+                                <p class="author-title">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Professional, creative, and highly skilled. Kazeem transformed our design mockups into a beautiful, functional website that exceeded expectations."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SE</div>
+                            <div>
+                                <p class="author-name">Sarah Esther</p>
+                                <p class="author-title">UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Great communication and technical expertise. Kazeem consistently delivered quality work on time and was always open to feedback and improvements."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">DW</div>
+                            <div>
+                                <p class="author-name">David White</p>
+                                <p class="author-title">Startup Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>Have a project in mind? Let's talk about it</p>
+        </div>
+
+        <div class="contact-wrapper">
+
+            <form id="contact-form" class="contact-form">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Send Message
+                </button>
+
+            </form>
+
+            <div class="contact-info">
+                <h3>Connect With Me</h3>
+                <p>Feel free to reach out through any of these channels:</p>
+
+                <a href="https://wa.me/2347087066214" class="social-btn" aria-label="WhatsApp">
+                    WhatsApp
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Kazeem Ganiu. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+(function () {
+    emailjs.init("2vqwVvf7zt4rXn-55"); 
+})();
+
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+    "service_xun9y2r",
+    "template_qzkkvb9",
+    this
+    ).then(
+    function () {
+        alert("Message sent successfully!");
+        document.getElementById("contact-form").reset();
+    },
+    function (error) {
+        alert("Failed to send message. Try again.");
+        console.log(error);
+    }
+    );
+});
+
+const btn = document.getElementById("viewAllBtn");
+const menu = document.getElementById("dropdownMenu");
+
+btn.addEventListener("click", function (e) {
+    e.stopPropagation();
+    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+});
+
+document.addEventListener("click", function () {
+    menu.style.display = "none";
+});
+</script>
+</body>
+</html>
